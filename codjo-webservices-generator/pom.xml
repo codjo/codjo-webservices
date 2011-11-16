@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <!-- POM's layout - http://www.javaworld.com/javaworld/jw-05-2006/jw-0529-maven.html -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+     | POM Relationships
+     -->
+
+    <artifactId>codjo-webservices-generator</artifactId>
+    <parent>
+        <groupId>net.codjo.webservices</groupId>
+        <artifactId>codjo-webservices</artifactId>
+        <version>1.6-SNAPSHOT</version>
+    </parent>
+    <dependencies>
+        <dependency>
+            <groupId>net.codjo.test</groupId>
+            <artifactId>codjo-test-common</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.codjo.util</groupId>
+            <artifactId>codjo-util</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.codjo.webservices</groupId>
+            <artifactId>codjo-webservices-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.axis</groupId>
+            <artifactId>axis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-discovery</groupId>
+            <artifactId>commons-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml</groupId>
+            <artifactId>jaxrpc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml</groupId>
+            <artifactId>saaj-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>wsdl4j</groupId>
+            <artifactId>wsdl4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <!--
+    | Project Information
+    -->
+
+    <name>Lib &gt; Webservices &gt; Generator</name>
+
+</project>
