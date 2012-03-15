@@ -11,7 +11,7 @@
     <parent>
         <groupId>net.codjo.webservices</groupId>
         <artifactId>codjo-webservices</artifactId>
-        <version>1.6</version>
+        <version>1.7-SNAPSHOT</version>
     </parent>
     <dependencies>
         <dependency>
